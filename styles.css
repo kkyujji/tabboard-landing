@@ -876,7 +876,7 @@ a {
 }
 
 .screen-poll {
-  right: 0;
+  right: 8px;
   top: 190px;
   z-index: 3;
   width: 300px;
