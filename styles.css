@@ -876,12 +876,12 @@ a {
 }
 
 .screen-poll {
-  right: 12px;
+  right: 0;
   top: 190px;
   z-index: 3;
-  width: 300px;
+  width: 330px;
   height: auto;
-  transform: rotate(5deg);
+  transform: translateX(-8px) rotate(5deg);
 }
 
 .screen-drawing {
