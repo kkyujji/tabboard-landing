@@ -876,11 +876,11 @@ a {
 }
 
 .screen-poll {
-  right: 12;
+  right: 0;
   top: 190px;
   z-index: 3;
-  width: 310px;
-  height: 256px;
+  width: 295px;
+  height: auto;
   transform: rotate(5deg);
 }
 
