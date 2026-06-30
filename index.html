@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>탭보드 랜딩페이지</title>
+  <link rel="icon" type="image/png" href="assets/tabboard-logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+   <header class="site-header">
+   
+   </header>
+
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-copy">
+  
+        <div class="eyebrow">
+          실제 수업 화면으로 더 생생하게
+        </div>
+
+        <h1>
+  <span class="headline-line">
+    <img class="headline-logo" src="assets/tabboard-logo.png" alt="탭보드" />
+    <span class="headline-with">와 함께</span>
+  </span>
+  <span class="headline-line headline-sub">수업 참여를 더 쉽고 재미있게.</span>
+</h1>
+        <p>
+          투표 결과 확인, 그리기 활동,<br class="mobile-break" />
+          세로형 타임라인 정리를<br class="mobile-break" />
+          한 화면에서 자연스럽게 이어가 보세요.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://tapboard.ybmcloud.com/">
+  탭보드 시작하기
+</a>
+          <a class="btn btn-secondary" href="assets/tabboard-guide.pdf" target="_blank" rel="noopener">
+  이용가이드 보기
+</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="탭보드 실제 화면 미리보기">
+        <div class="floating-stage">
+          <article class="floating-screen screen-timeline" tabindex="0" style="--float-delay: -0.4s">
+           <img src="assets/timeline.png" data-title="세로형 타임라인 활동" alt="세로형 타임라인 활동 화면" />
+            <div class="screen-caption">
+              <span class="screen-index">1</span>
+              <strong>세로형 타임라인</strong>
+            </div>
+          </article>
+
+          <article class="floating-screen screen-poll" tabindex="0" style="--float-delay: -1.6s">
+           <img src="assets/poll.png" data-title="실시간 투표 활동" alt="실시간 투표 활동 화면" />
+            <div class="screen-caption">
+              <span class="screen-index">2</span>
+              <strong>실시간 투표</strong>
+            </div>
+          </article>
+
+          <article class="floating-screen screen-drawing" tabindex="0" style="--float-delay: -2.7s">
+            <img src="assets/drawing.png" data-title="그리기 활동" alt="그리기 도구 활동 화면" />
+            <div class="screen-caption">
+              <span class="screen-index">3</span>
+              <strong>그리기 활동</strong>
+            </div>
+          </article>
+
+<article class="floating-screen board-shot board-discussion" tabindex="0">
+<img
+  src="assets/board-discussion.png"
+  data-full="assets/board-discussion.png"
+  data-title="토의토론형 보드"
+  alt="토의토론형 탭보드 화면"
+/></article>
+
+<article class="floating-screen board-shot board-ox" tabindex="0">
+<img src="assets/board-ox.png" data-full="assets/board-ox.png" data-title="OX형 보드" alt="OX형 탭보드 화면" />
+</article>
+
+<article class="floating-screen board-shot board-timeline" tabindex="0">
+<img src="assets/board-timeline.png" data-full="assets/board-timeline.png" data-title="타임라인형 보드" alt="타임라인형 탭보드 화면" />
+</article>
+
+<article class="floating-screen board-shot board-basic" tabindex="0">
+<img src="assets/board-basic.png" data-full="assets/board-basic.png" data-title="기본형 보드" alt="기본형 탭보드 화면" />
+</article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features section-shell">
+      <div class="section-heading">
+        <span class="section-kicker">Features</span>
+        <h2>새로워진 탭보드로 더 다양한 수업 활동을 만들어 보세요!</h2>
+      </div>
+
+      <div id="featureGrid" class="feature-grid" aria-label="탭보드 기능 목록"></div>
+    </section>
+
+    <section id="usecases" class="usecases section-shell">
+      <div class="section-heading centered">
+        <span class="section-kicker">Class Flow</span>
+        <h2>수업 활용 예시</h2>
+        <p>
+  한 차시 흐름에 맞춰 학생 참여를 자연스럽게 이어가 보세요.<br />
+  도입부터 정리까지, 활동 결과가 다음 단계로 연결됩니다.
+</p>
+      </div>
+
+      <div id="usecaseGrid" class="usecase-grid" aria-label="수업 활용 예시 목록"></div>
+    </section>
+
+    <section id="faq" class="faq section-shell">
+      <div class="section-heading centered">
+        <span class="section-kicker">FAQ</span>
+        <h2>자주 묻는 질문</h2>
+        <p>수업 전에 많이 확인하는 참여 방법과 활용 흐름을 정리했어요.</p>
+      </div>
+
+      <div id="faqList" class="faq-list"></div>
+    </section>
+
+    <section id="start" class="bottom-cta section-shell">
+      <div class="cta-banner">
+        <div>
+          <span class="section-kicker">Start Now</span>
+          <h2>수업에서 바로 써볼 준비가 되셨나요?</h2>
+          <p>지금 탭보드를 시작해 보세요!</p>
+        </div>
+        <a class="btn btn-primary" href="https://tapboard.ybmcloud.com/" target="_blank" rel="noopener">
+  탭보드 시작하기
+</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© TABBOARD. All rights reserved.</p>
+  </footer>
+
+
+<div class="image-modal" id="imageModal" aria-hidden="true">
+  <button class="image-modal-close" type="button" aria-label="닫기">×</button>
+
+  <figure class="image-modal-figure">
+    <img class="image-modal-img" src="" alt="" />
+    <figcaption class="image-modal-title"></figcaption>
+  </figure>
+</div>
+</body>
+</html>
